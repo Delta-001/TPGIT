@@ -16,6 +16,9 @@ body {
 main{
    color : red;
 }
+*p{
+  font-size : 16;
+}
 
 
 /* Inclusion du fichier mobile.css */
