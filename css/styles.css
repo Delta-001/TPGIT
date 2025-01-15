@@ -13,5 +13,10 @@ body {
   color: #333;
 }
 
+main{
+   color : red;
+}
+
+
 /* Inclusion du fichier mobile.css */
 @import url("mobile.css");
