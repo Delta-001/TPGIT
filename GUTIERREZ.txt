@@ -1,0 +1,41 @@
+git init
+git clone https://github.com/Delta-001/TPGIT
+git remote add origin 
+
+git config user.email centime-dalle-0l@icloud.com
+git config user.name Flap-s
+
+nano index.html
+git checkout -b html
+git branch
+git add -A
+git commit -m "HTML1"
+git push origin html
+
+
+
+git pull origin css
+git checkout css --
+nano style.css
+git add -A
+git commit -m "CSS-edit1"
+git push origin css
+
+git pull origin Mobile
+git checkout Mobile --
+nano css/mobile.css
+git add -A
+git commit -m "Mobile-edit1"
+git push origin Mobile
+
+git checkout html
+#ajout d'une image 
+git add images/flag.png
+git commit -m "Ajout image"
+git push origin html --force
+
+git checkout html
+nano index.html
+git add -A 
+git commit -m "ajout link mobile"
+git push origin html --force
