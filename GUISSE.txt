@@ -1,0 +1,31 @@
+git init  
+git remote add origin https://github.com/Delta-001/TPGIT.git
+git config user.email seydinag01@gmail.com
+git config user.name Delta-001
+git add tpgit
+git commit -m "test1"
+git push origin master
+git checkout -b css                                                                       
+git add css/styles.css
+git commit -m "styles.css1"
+git push origin css
+git pull origin Mobile
+git checkout Mobile
+git diff css/mobile.css
+Git pull origin html
+Git checkout html –
+Git diff index.html
+Git checkout css
+Git checkout html –
+Git fetch origin
+Git rebase origin/html
+Git add html/page1.html
+Git commit -m « ajout d’une page »
+Git push origin html
+Git add index.html
+Git commit -m « modif html seydina »
+Git push origin html 
+Git add html/page1.html
+Git commit -m « ajout d’une image dans la page »
+Git push origin html
+
